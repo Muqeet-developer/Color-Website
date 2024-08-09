@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #222121;
+    height: 9vh;
+    display: flex;
+}
+header img{
+    height: 5dvh;
+    align-items: center;
+    margin-top: 2px;
+    box-sizing: content-box;
+    float: left;
+}
+.logo .img2{
+    color: white;
+    height: 7dvh;
+
+}
+header nav{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+header nav button{
+    border: none;
+    outline: none;
+    background-color: #191919;
+    height: 9dvh;
+    width: 25dvh;
+    color: gray;
+    margin-left: -1dvh;
+}
+.dark{
+    background-color: black;
+    color: white;
+
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.icons{
+    display: flex;
+    float: right;
+    text-decoration: solid;
+    margin-left: 900px;
+    margin-right: -100px;
+    box-sizing: content-box;
+}
+.icons .imp {
+background-color: green;
+height: 40px;
+}
+.icons > img{
+    height: 40px;
+}
+ .para p{
+margin-left: -1300px;
+color:white;
+margin-top: 20px;
+font-size: 30px;
+font-weight: bolder;
+
+}
+.para h1{
+margin-left: -1300px;
+color:black;
+margin-top: 20px;
+font-size: 30px;
+}
+.para pre{
+    margin-left: -1500px;
+    color:white;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: left;
+    color: black;
+}
+.para button{
+   z-index: 99; 
+   margin-left: -1300px;
+   color:white;
+   margin-top: 20px;
+   justify-content: center;
+   background-color: rgb(0, 187, 255);
+   height: 49px;
+   width: 100px;
+   border: none;
+}
+.para .bt2{
+    z-index: 99; 
+    margin-left: 50px;
+    color:white;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: blue;
+    height: 49px;
+    width: 100px;
+}
+.img{
+    display: flex;
+
+}
+.img img{
+    width: 100%;
+}
+.cards{
+width: 21%;
+height: 30%;
+position: absolute;
+display: flex;
+flex-wrap: nowrap;
+display: block;
+top: 130%;
+left: 90px;
+background-color: white;
+display: inline;
+box-shadow: 0px 0px 20px gray;
+
+}
+.cards p{
+    color: gray;
+    margin-top: 10px;
+}
+.cards img{
+    display: block;
+}
+.cards button{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.cadr2 {
+background-color: wheat;
+justify-content: center;
+margin-left: 550px;
+width: 21%;
+height: 30%;
+position: absolute;
+display: flex;
+flex-wrap: nowrap;
+display: block;
+top: 130%;
+left: -40px;
+background-color: white;
+display: inline;
+box-shadow: 0px 0px 20px gray;
+
+}
+.cadr2 img{
+    display: block;
+}
+.cadr2 button{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.cadr2 p{
+
+    color: gray;
+    margin-top: 10px;
+}
+ul{
+    margin-left: -500px;
+    text-size-adjust: 10px;
+    white-space: 1.0;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    
+}
+.cards3{
+    background-color: wheat;
+    margin-left: 800px;
+    margin-top: -140px;
+    width: 21%;
+    height: 30%;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    display: block;
+    background-color: white;
+    display: inline;
+    box-shadow: 0px 0px 20px gray;
+   z-index: 100;
+   
+}
+.cards3 img{
+    display: block;
+}
+.cards3 button{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+.cards3 p{
+    color: gray;
+    margin-top: 10px;
+}
+.cards-all{
+margin-left: 90px;
+}
+.OUR-Agance{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.OUR-Agance img{
+    height: 20%;
+    width: 49%;
+    margin-top: 5%;
+    margin-left: 100px;
+    float: left;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/background_53876-32170.jpg?size=626&ext=jpg&ga=GA1.1.1127613234.1720428862&semt=ais_hybrid");
+}
+.OUR-Agance h5{
+    float: right;
+    margin-top: -450px;
+    margin-left: 800px;
+    justify-content: center;
+    z-index: 99;
+    color: gray;
+}
+.OUR-Agance p{
+float: right;
+font-size: 34px;
+margin-right: 400px;
+margin-top: -300px;
+}
+.OUR-Agance h2{
+    margin-left: 800px;
+}
+.clints{
+    float: left;
+    width: 100%;
+    margin-left: 12px;
+    background-color: rgba(176, 196, 222, 0.315);
+    display: flex;
+    text-align: center;
+    height: 150px;
+}
+.clints h1{
+    color: blue;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.clints h1 >span{
+    color: gray;
+    margin-left: -50px;
+}
+.leader-ship{
+    text-align: center;
+    margin-top: 750px;
+}
+.leader img{
+    float: left;
+    display: flex;
+}
+.leader .lorem{
+    float: left;
+}
+.leader .lorem{
+    float: right;
+    margin-top: 50px;
+    margin-right: 1300px;
+
+}
+.leader2 img{
+    float: left;
+    display: flex;
+}
+.foot{
+    background-color: black;
+}
